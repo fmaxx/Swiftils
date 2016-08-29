@@ -1,0 +1,22 @@
+{
+  "name": "Swiftils",
+  "version": "0.1.0",
+  "summary": "A short description of Swiftils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Swiftils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fmaxx": "firsoffmaxim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Swiftils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Swiftils/Classes/**/*"
+}

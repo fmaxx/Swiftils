@@ -1,0 +1,6 @@
+framework module Swiftils {
+  umbrella header "Swiftils-umbrella.h"
+
+  export *
+  module * { export * }
+}

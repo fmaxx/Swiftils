@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Swiftils_Example' do
+  pod 'Swiftils', :path => '../'
+
+  target 'Swiftils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

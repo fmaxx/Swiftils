@@ -1,15 +1,8 @@
-//
-//  SwiftilsTests.swift
-//  SwiftilsTests
-//
-//  Created by Maxim Firsov on 21/08/16.
-//  Copyright © 2016 DigitalKickstart. All rights reserved.
-//
-
+import UIKit
 import XCTest
-@testable import Swiftils
+import Swiftils
 
-class SwiftilsTests: XCTestCase {
+class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +16,12 @@ class SwiftilsTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }

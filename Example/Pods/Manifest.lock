@@ -1,0 +1,16 @@
+PODS:
+  - Swiftils (0.1.0)
+
+DEPENDENCIES:
+  - Swiftils (from `../`)
+
+EXTERNAL SOURCES:
+  Swiftils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Swiftils: c33c4ef87eafe84ac9d78e2909634773376abf55
+
+PODFILE CHECKSUM: a485ca0bfeb7214c9e626861bca2510b89a210c7
+
+COCOAPODS: 1.0.1

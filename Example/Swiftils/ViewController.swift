@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import Swiftils
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let roundedValue = Math.roundTo(10.4456, decimalPlaces: 2)
+        print(" round test \(roundedValue)")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

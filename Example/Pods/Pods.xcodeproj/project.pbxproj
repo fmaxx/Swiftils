@@ -10,11 +10,11 @@
 		144DFF17938EC063724F4B8ECA27E81C /* Pods-Swiftils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 394C4B7CA377503D3B7FFDB5CB8B759A /* Pods-Swiftils_Tests-dummy.m */; };
 		240F6787120B3E700580D311E7ABEAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		41499A1DFB50602140C6C1BB23123264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		42FEB25584388D74F5E133914E7FC593 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */; };
 		4977EBF12A59818526DD6CACD0C95CDD /* Pods-Swiftils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1121BB7396B2E942FFFBE6E71C1FE7 /* Pods-Swiftils_Example-dummy.m */; };
-		9C1F00C9DB75D544207E998AE6D5A7A4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DCF8CF9ED28C019143A74DDC05DBA /* ReplaceMe.swift */; };
 		A03625118C331B55A790E3C35004D2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C56D85038DE39F6D1DB13ABADFF7704E /* Swiftils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C219B79B6E06880B5DA2C8B5534767 /* Swiftils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A608BC566CAE646697208A5E66F101 /* Swiftils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C406840511CDD7A006F664086E6CE51 /* Swiftils-dummy.m */; };
+		CCB253C395D31BDA3C69787CF81F347A /* Swiftils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C406840511CDD7A006F664086E6CE51 /* Swiftils-dummy.m */; };
 		D9604684EF238EC232E54C23728A2179 /* Pods-Swiftils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D77D1E78BDBEE18EC4DF91008EA68B0E /* Pods-Swiftils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E93A1B9775843AAC4D04B8B04D8645D3 /* Pods-Swiftils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5F6A72266144C81FA2ED2FDA1FA63C /* Pods-Swiftils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -38,6 +38,7 @@
 		2B9B423DD3D2AA29C36BC0080B0A1B18 /* Swiftils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftils-prefix.pch"; sourceTree = "<group>"; };
 		394C4B7CA377503D3B7FFDB5CB8B759A /* Pods-Swiftils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiftils_Tests-dummy.m"; sourceTree = "<group>"; };
 		3BDA1337E7CC872DB06DCDE5978FE8D3 /* Pods-Swiftils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftils_Tests-resources.sh"; sourceTree = "<group>"; };
+		4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		5677DF0173E64885DEAEB6B94676BD19 /* Pods_Swiftils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		618BCDB250E57938D0E4AD79158B70E7 /* Swiftils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Swiftils.modulemap; sourceTree = "<group>"; };
 		69A5501E2D0A5E4B2BA50FCBE2C574EB /* Pods-Swiftils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Swiftils_Tests.modulemap"; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		AEB56C1BE947507AC275CD3537367787 /* Pods-Swiftils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAC3BC90A1E1518E0C568A652D649D74 /* Pods-Swiftils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BC82BA5CA24E6A70C108D783DE30C995 /* Pods-Swiftils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiftils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD0DCF8CF9ED28C019143A74DDC05DBA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		BDC23369F706E6431FA494AAEBE605FD /* Pods-Swiftils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftils_Example-resources.sh"; sourceTree = "<group>"; };
 		C613C0E7EDA47836D9CF9B1A74627035 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B2B008BC1B80F48D136F5FA77D9C98 /* Pods-Swiftils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Swiftils_Example.modulemap"; sourceTree = "<group>"; };
@@ -116,6 +116,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		2AA41326CF5BFD1153ACECF84398FC3E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		315DD884EBA03C3FF9E03CF5C902C7D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +149,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		402F3176AA2FBF169D8587502CB4CB1A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BD0DCF8CF9ED28C019143A74DDC05DBA /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		43702DA5981BD61B3671FD06235C2063 /* Pods-Swiftils_Tests */ = {
@@ -190,7 +190,7 @@
 		7400EDA83282267F1BC2E204C084E398 /* Swiftils */ = {
 			isa = PBXGroup;
 			children = (
-				402F3176AA2FBF169D8587502CB4CB1A /* Classes */,
+				2AA41326CF5BFD1153ACECF84398FC3E /* Classes */,
 			);
 			path = Swiftils;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AD509FA6A07AF235A527EB0B3252424 /* Build configuration list for PBXNativeTarget "Swiftils" */;
 			buildPhases = (
-				41166B7CB8CBF76C58285245277EE768 /* Sources */,
+				9B616F26C983FD3FCCED7986AA55F093 /* Sources */,
 				BC457D86954324712C351C01B2C4A17D /* Frameworks */,
 				278407BF0E464C6E2DD2DF4702DB2A15 /* Headers */,
 			);
@@ -333,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41166B7CB8CBF76C58285245277EE768 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C1F00C9DB75D544207E998AE6D5A7A4 /* ReplaceMe.swift in Sources */,
-				D6A608BC566CAE646697208A5E66F101 /* Swiftils-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63AA18974B33FCA3BC2497464C8DD8B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				144DFF17938EC063724F4B8ECA27E81C /* Pods-Swiftils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B616F26C983FD3FCCED7986AA55F093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FEB25584388D74F5E133914E7FC593 /* Math.swift in Sources */,
+				CCB253C395D31BDA3C69787CF81F347A /* Swiftils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

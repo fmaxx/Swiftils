@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swiftils'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Small usefull Swift utils'
 
 # This description is used to generate tags and improve search results.

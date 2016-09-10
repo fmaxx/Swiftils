@@ -12,6 +12,9 @@
 		41499A1DFB50602140C6C1BB23123264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		42FEB25584388D74F5E133914E7FC593 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */; };
 		4977EBF12A59818526DD6CACD0C95CDD /* Pods-Swiftils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1121BB7396B2E942FFFBE6E71C1FE7 /* Pods-Swiftils_Example-dummy.m */; };
+		930010481D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
+		930010491D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
+		9300104A1D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
 		A03625118C331B55A790E3C35004D2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C56D85038DE39F6D1DB13ABADFF7704E /* Swiftils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C219B79B6E06880B5DA2C8B5534767 /* Swiftils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCB253C395D31BDA3C69787CF81F347A /* Swiftils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C406840511CDD7A006F664086E6CE51 /* Swiftils-dummy.m */; };
@@ -47,6 +50,7 @@
 		75E3E9F4198DFDC23B6E18B52C7D9616 /* Pods-Swiftils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8ACE11ED615D974A18B5C421DD357D22 /* Pods-Swiftils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9011581BFE57E9060923EC77038001EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930010471D8483BB00494BB1 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E69AE187987C540465F7FC43B3A1E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5F6A72266144C81FA2ED2FDA1FA63C /* Pods-Swiftils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiftils_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		2AA41326CF5BFD1153ACECF84398FC3E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				930010461D8483A000494BB1 /* extensions */,
 				4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */,
 			);
 			path = Classes;
@@ -212,6 +217,14 @@
 				292B6F3018206F9F0485CDBF6C9B24A3 /* Swiftils */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		930010461D8483A000494BB1 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				930010471D8483BB00494BB1 /* UIColor.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -338,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4977EBF12A59818526DD6CACD0C95CDD /* Pods-Swiftils_Example-dummy.m in Sources */,
+				930010481D8483BB00494BB1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144DFF17938EC063724F4B8ECA27E81C /* Pods-Swiftils_Tests-dummy.m in Sources */,
+				930010491D8483BB00494BB1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FEB25584388D74F5E133914E7FC593 /* Math.swift in Sources */,
+				9300104A1D8483BB00494BB1 /* UIColor.swift in Sources */,
 				CCB253C395D31BDA3C69787CF81F347A /* Swiftils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB0EB4459DD20150BA9D7F90AD1AEB23 /* Pods-Swiftils_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -445,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8ACE11ED615D974A18B5C421DD357D22 /* Pods-Swiftils_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -538,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 069526CC401D6D75045486D696CD8EFD /* Pods-Swiftils_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -561,6 +580,7 @@
 				PRODUCT_NAME = Pods_Swiftils_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -613,6 +633,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 147A267459F6E853F9445763593DE6A1 /* Pods-Swiftils_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

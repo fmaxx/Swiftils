@@ -14,10 +14,13 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func test_Math_roundTo() {
         // This is an example of a functional test case.
-//        XCTAssert(true, "Pass")
-        XCTAssertTrue(Math.roundTo(1.01, decimalPlaces: 0) == 1.0)
+        XCTAssertTrue(Math.roundTo(0.1, decimalPlaces: 0) == 0.0)
+        XCTAssertTrue(Math.roundTo(-1.5, decimalPlaces: 0) == -2.0)
+        XCTAssertTrue(Math.roundTo(1.4, decimalPlaces: 0) == 1.0)
+        XCTAssertTrue(Math.roundTo(1.5, decimalPlaces: 0) == 2.0)
+        
     }
     
     func testPerformanceExample() {

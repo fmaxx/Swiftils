@@ -12,9 +12,7 @@
 		41499A1DFB50602140C6C1BB23123264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		42FEB25584388D74F5E133914E7FC593 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323F99482D7E7D907BFFD99DF5E0C4B /* Math.swift */; };
 		4977EBF12A59818526DD6CACD0C95CDD /* Pods-Swiftils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1121BB7396B2E942FFFBE6E71C1FE7 /* Pods-Swiftils_Example-dummy.m */; };
-		930010481D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
-		930010491D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
-		9300104A1D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
+		9300104A1D8483BB00494BB1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930010471D8483BB00494BB1 /* UIColor.swift */; };
 		A03625118C331B55A790E3C35004D2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C56D85038DE39F6D1DB13ABADFF7704E /* Swiftils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C219B79B6E06880B5DA2C8B5534767 /* Swiftils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCB253C395D31BDA3C69787CF81F347A /* Swiftils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C406840511CDD7A006F664086E6CE51 /* Swiftils-dummy.m */; };
@@ -351,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4977EBF12A59818526DD6CACD0C95CDD /* Pods-Swiftils_Example-dummy.m in Sources */,
-				930010481D8483BB00494BB1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				144DFF17938EC063724F4B8ECA27E81C /* Pods-Swiftils_Tests-dummy.m in Sources */,
-				930010491D8483BB00494BB1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

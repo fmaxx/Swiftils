@@ -1,6 +1,7 @@
 import UIKit
 import XCTest
 import Swiftils
+import CoreGraphics
 
 class Tests: XCTestCase {
     
@@ -21,6 +22,25 @@ class Tests: XCTestCase {
         XCTAssertTrue(Math.roundTo(1.4, decimalPlaces: 0) == 1.0)
         XCTAssertTrue(Math.roundTo(1.5, decimalPlaces: 0) == 2.0)
         
+    }
+    
+    
+    func test_UIColorFromHex_extension() {
+        // This is an example of a functional test case.
+        let ethalonWhite = UIColor.whiteColor()
+        let ethalonBlack = UIColor.blackColor()
+        let white:String = "#FFFFFFFF"
+        var color:UIColor = UIColor(hex:white)
+        XCTAssertTrue(color.isStrictEqual(ethalonWhite))
+        
+        color = UIColor(hex: "FFFFFFF")
+        XCTAssertTrue(color.isStrictEqual(ethalonWhite))
+        
+        color = UIColor(hex: "ERROR")
+        XCTAssertTrue(color.isStrictEqual(ethalonBlack))
+        
+        color = UIColor(hex: "")
+        XCTAssertTrue(color.isStrictEqual(ethalonBlack))
     }
     
     func testPerformanceExample() {

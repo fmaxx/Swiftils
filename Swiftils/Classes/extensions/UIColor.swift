@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIColor{
+public extension UIColor{
     convenience init(hex:String) {
         
         // trim empty spaces
@@ -36,7 +36,31 @@ extension UIColor{
             alpha = CGFloat( rgba & 0x000000FF) / 255.0
         }
         
+//        print("colors: \(red, green, blue, alpha)")
+        
         // result
         self.init(red: red, green:green, blue:blue, alpha:alpha)
     }
+    
+    public 	func isStrictEqual(color:UIColor) -> Bool {
+        if(color == self) {
+            return true
+        }
+        var color_red: CGFloat = 0
+        var color_green: CGFloat = 0
+        var color_blue: CGFloat = 0
+        var color_alpha: CGFloat = 0
+        color.getRed(&color_red, green: &color_green, blue: &color_blue, alpha: &color_alpha)
+        
+        var self_red: CGFloat = 0
+        var self_green: CGFloat = 0
+        var self_blue: CGFloat = 0
+        var self_alpha: CGFloat = 0
+        color.getRed(&self_red, green: &self_green, blue: &self_blue, alpha: &self_alpha)
+        
+        return color_red == self_red && color_green == self_green && color_blue == self_blue && color_alpha == self_alpha
+    }
 }
+
+
+
